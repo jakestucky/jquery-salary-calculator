@@ -1,9 +1,33 @@
-#buttonIn {
-  align: right;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  empty-cells: show;
 }
-
-table,
-th,
+th {
+  background-color: lightgray;
+  border: 1px solid black;
+}
 td {
   border: 1px solid black;
+}
+tfoot {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+.monthlySalary {
+  text-align: right;
+}
+.tooHigh {
+  background-color: red;
+}
+.tableFoot {
+  height: 20px;
 }
