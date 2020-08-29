@@ -24,6 +24,7 @@ function addEmployee() {
   employeeData.push(newEmployee);
   displayEmployees();
   salaryChecker();
+
   //resaet the form fields to empty after click function
   $('#empFirstNameIn').val('');
   $('#empLastNameIn').val('');
@@ -32,6 +33,7 @@ function addEmployee() {
   $('#empSalaryIn').val('');
 } // end addEmployee
 function delEmployee() {
+  //target this and delete the row it is on
   $(this).closest('tr').remove();
 } //end delEmployee
 function displayEmployees() {
@@ -48,7 +50,7 @@ function displayEmployees() {
       <td>${employeeData[i].lastName}</td>
         <td> ${employeeData[i].empID}</td>
         <td> ${employeeData[i].empTitle}</td>
-        <td> ${employeeData[i].empSalary}</td>
+        <td class="empSalary"> ${employeeData[i].empSalary}</td>
         <td> <button class="deleteEmployeeBtn">Delete</button> </td> </tr>`);
   } // end for
 } // end displayEmployees

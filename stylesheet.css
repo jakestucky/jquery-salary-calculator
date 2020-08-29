@@ -31,3 +31,16 @@ tbody tr:nth-child(even) {
 .tableFoot {
   height: 20px;
 }
+header {
+  background-color: #6b6b6b;
+}
+.inputForm {
+  width: 100%;
+}
+body {
+  width: 75%;
+  text-align: center;
+  border: 1px solid black;
+}
+.buttonIn {
+  float: right
