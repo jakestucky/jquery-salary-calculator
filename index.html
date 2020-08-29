@@ -6,6 +6,36 @@
     <title>Salary Calculator</title>
     <script src="jquery.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Salary Calculator</h1>
+    <div class="inputForm">
+      <h2>Add Employee</h2>
+      <input type="text" id="empFirstNameIn" placeholder="First Name" />
+      <input type="text" id="empLastNameIn" placeholder="Last Name" />
+      <input type="number" id="empNumberIn" placeholder="Employee ID" />
+      <input type="text" id="empTitleIn" placeholder="Title" />
+      <input type="text" id="empSalaryIn" placeholder="Annual Salary" />
+      <div class="buttonIn">
+        <button id="addEmployeeBtn">Submit</button>
+      </div>
+    </div>
+    <h2>Employees</h2>
+    <div class="empTable">
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
 </html>

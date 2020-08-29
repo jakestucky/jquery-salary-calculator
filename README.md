@@ -8,11 +8,11 @@ Your project description goes here. What problem did you solve? How did you solv
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
 
-[ ] Create index.html and js and jquery...Link them all in
-[ ] Header to match wireframe
-[ ] Create input form with following fields :employee first name, last name, ID number, job title, annual salary
-[ ] Create table for data to live in
-[ ] Create submit button
+[x] Create index.html and js and jquery...Link them all in
+[x] Header to match wireframe
+[x] Create input form with following fields :employee first name, last name, ID number, job title, annual salary
+[x] Create table for data to live in
+[x] Create submit button
 [ ] Onlick listener to store data in an array as objects
 [ ] Have the onclick append the item added to li
 [ ] Create function to use stored salary data and ensure total month cost < 20,000 or add a red background to that <li>
