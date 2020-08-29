@@ -17,4 +17,4 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 [ ] Have the onclick append the item added to li
 [ ] Create function to use stored salary data and ensure total month cost < 20,000 or add a red background to that <li>
 [ ] Create delete button
-[ ] Onclick listner to delete an employee 9inl;ine with the <li>
+[ ] Onclick listener to delete an employee 9inl;ine with the <li>
