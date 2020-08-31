@@ -35,12 +35,11 @@ header {
   background-color: #6b6b6b;
 }
 .inputForm {
-  width: 100%;
+  width: auto;
+  display: inline-block;
 }
 body {
   width: 75%;
   text-align: center;
   border: 1px solid black;
 }
-.buttonIn {
-  float: right
